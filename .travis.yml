@@ -12,5 +12,5 @@ jobs:
     if: branch = master AND type != pull_request
     script:
     - docker login -u $mpjaramillo -p $mp0980063288
-    - docker build --rm=true -t mpjaramillo/blockchainedu:latest .
-    - docker push mpjaramillo/blockchainedu:latest
+    - docker build --rm=true -t mpjaramillo/proyecto_criminalistica:latest .
+    - docker push mpjaramillo/proyecto_criminalistica:latest

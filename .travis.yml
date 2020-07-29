@@ -3,7 +3,7 @@ services:
 
 script:
 # build new image
-- docker build --rm=true -t mpjaramillo/proyecto_criminalisticaedu:latest
+- docker build --rm=true -t mpjaramillo/proyecto_criminalistica:latest
 
 jobs:
   include:
